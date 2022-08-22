@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<perfectshipping>
+				<model>PerfectShapes\PerfectShipping\Model\Carrier\PerfectShipping</model>
+				<active>0</active>
+				<title>Perfect shipping</title>
+				<name>Perfect shipping</name>
+				<price_uk>0.00</price_uk>
+				<price_abroad>0.00</price_abroad>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</perfectshipping>
+		</carriers>
+	</default>
+</config>
